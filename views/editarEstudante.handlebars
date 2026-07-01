@@ -1,0 +1,17 @@
+<h1>Editar Estudante</h1>
+
+<form action="/estudantes/{{estudante.id}}?_method=PUT" method="POST">
+
+<input
+type="text"
+name="nome"
+value="{{estudante.nome}}">
+
+<input
+type="number"
+name="idade"
+value="{{estudante.idade}}">
+
+<button>Atualizar</button>
+
+</form>
